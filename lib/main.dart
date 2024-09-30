@@ -3,7 +3,7 @@ import 'package:cleancraft/presentation/providers/user_provider.dart';
 import 'package:cleancraft/presentation/views/user_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'data/data sources/user_remote_data_source.dart';
+import 'data/dataSources/user_remote_data_source.dart';
 import 'domain/use cases/get_users.dart';
 
 void main() {

@@ -1,11 +1,11 @@
 import '../../domain/entities/user.dart';
 import '../../domain/repositories/user_repository.dart';
-import '../data sources/user_remote_data_source.dart';
+import '../dataSources/user_remote_data_source.dart';
 
 class UserRepositoryImplementation implements UserRepository {
   final UserRemoteDataSource remoteDataSource;
 
-  UserRepositoryImplementation(this.remoteDataSource);
+  UserRepositoryImplementation (this.remoteDataSource);
 
   @override
   Future<List<User>> getUsers() async {
